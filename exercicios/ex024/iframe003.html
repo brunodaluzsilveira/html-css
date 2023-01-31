@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 5px;
+        }
+
+        ul > li {
+            padding-bottom: 15px;
+        }
+
+        ul > li > a {
+            background-color: aqua;
+            color: rgb(0, 85, 85);
+            padding: 5px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        ul > li > a:hover {
+            background-color: rgb(0, 85, 85);
+            color: aqua;
+        }
+
+        iframe#tela {
+            width: 94vw;
+            height: 500px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid neque atque molestias architecto unde veniam iste enim, inventore ullam sed repudiandae doloribus recusandae quaerat. Suscipit ipsum ut odio. Id, dolor.</p>
+
+    <ul>
+        <li><a href="paginas-extra/pag01.html" target="frame">Tabela de Vendas</a></li>
+        <li><a href="paginas-extra/pag02.html" target="frame">Tabela de Cadastros</a></li>
+        <li><a href="paginas-extra/pag03.html" target="frame">Tabela de Filmes Favoritos</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto facilis nobis dolorem, iure dolore molestiae temporibus ipsum eius. Quas quae ipsa ullam perferendis! A fuga aperiam recusandae quisquam pariatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rem non alias voluptatum autem delectus consequatur. Distinctio, sequi! Alias nam modi praesentium ipsam facilis nulla ut laboriosam dignissimos ab repudiandae!</p>
+
+    <iframe src="" id="tela" name="frame"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, numquam cupiditate quod voluptatem corrupti eveniet alias sint beatae aliquam, laboriosam nihil. Quae eaque fugit quam vero in? Fugit, numquam modi.</p>
+</body>
+</html>
