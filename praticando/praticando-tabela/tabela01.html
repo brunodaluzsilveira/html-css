@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Boletim Escolar</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 15px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: rgb(37, 37, 37);
+            color: white;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: gray;
+        }
+
+        .esquerda {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Boletim Escolar</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">1° Bimestre</th>
+                <th colspan="2">2° Bimestre</th>
+                <th colspan="2">3° Bimestre</th>
+                <th colspan="2">4° Bimestre</th>
+                <th colspan="2">Total</th>
+                <th colspan="2">Estudos Independentes de Recuperação</th>
+            </tr>
+            <tr>
+                <th>Nota</th>
+                <th>Faltas</th> 
+                <th>Nota</th>
+                <th>Faltas</th> 
+                <th>Nota</th>
+                <th>Faltas</th> 
+                <th>Nota</th>
+                <th>Faltas</th> 
+                <th>Nota</th>
+                <th>Faltas</th> 
+                <th>Nota</th>
+                <th>Faltas</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="esquerda">Artes</td>
+                <td>19,00</td>
+                <td>0:00</td>
+                <td>23,00</td>
+                <td>0:00</td>
+                <td>25,00</td>
+                <td>0:00</td>
+                <td>-</td>
+                <td>-</td>
+                <td>67,00</td>
+                <td>0:00</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">Ciências</td>
+                <td>23,00</td>
+                <td>1:40</td>
+                <td>22,00</td>
+                <td>3:20</td>
+                <td>20,00</td>
+                <td>3:20</td>
+                <td>-</td>
+                <td>-</td>
+                <td>65,00</td>
+                <td>3:20</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">Educação Física</td>
+                <td>22,00</td>
+                <td>0:00</td>
+                <td>21,00</td>
+                <td>1:40</td>
+                <td>17,00</td>
+                <td>1:40</td>
+                <td>-</td>
+                <td>-</td>
+                <td>60,00</td>
+                <td>1:40</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">Ensino Religioso</td>
+                <td>15,00</td>
+                <td>0:00</td>
+                <td>16,00</td>
+                <td>0:00</td>
+                <td>21,00</td>
+                <td>0:50</td>
+                <td>-</td>
+                <td>-</td>
+                <td>52,00</td>
+                <td>0:50</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">Geografia</td>
+                <td>19,00</td>
+                <td>0:50</td>
+                <td>19,00</td>
+                <td>0:50</td>
+                <td>21,00</td>
+                <td>0:00</td>
+                <td>-</td>
+                <td>-</td>
+                <td>59,00</td>
+                <td>0:00</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">História</td>
+                <td>17,00</td>
+                <td>3:20</td>
+                <td>21,00</td>
+                <td>2:30</td>
+                <td>19,00</td>
+                <td>1:40</td>
+                <td>-</td>
+                <td>-</td>
+                <td>57,00</td>
+                <td>1:40</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">Língua Inglesa</td>
+                <td>17,00</td>
+                <td>2:30</td>
+                <td>21,00</td>
+                <td>0:00</td>
+                <td>18,00</td>
+                <td>2:30</td>
+                <td>-</td>
+                <td>-</td>
+                <td>56,00</td>
+                <td>2:30</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">Língua Portuguesa</td>
+                <td>19,00</td>
+                <td>3:20</td>
+                <td>24,00</td>
+                <td>0:50</td>
+                <td>23,00</td>
+                <td>2:30</td>
+                <td>-</td>
+                <td>-</td>
+                <td>66,00</td>
+                <td>2:30</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="esquerda">Matemática</td>
+                <td>18,00</td>
+                <td>0:00</td>
+                <td>16,00</td>
+                <td>0:00</td>
+                <td>20,08</td>
+                <td>3:20</td>
+                <td>-</td>
+                <td>-</td>
+                <td>54,8</td>
+                <td>3:20</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

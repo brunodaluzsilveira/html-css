@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Escolar</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: black url(imagens/escola.png) center center no-repeat fixed;
+            background-size: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+            background-color: white;
+            padding: 10px 20px 10px 20px;
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        ul > p {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        li {
+            padding-bottom: 15px;
+            text-align: center;
+        }
+
+        a {
+            background-color: aqua;
+            color: rgb(0, 109, 109);
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 8px;
+        }
+
+        a:hover {
+            background-color: rgb(0, 109, 109);
+            color: aqua;
+        }
+
+        iframe {
+            width: 1000px;
+            height: 600px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <p>Opções</p>
+        <li><a href="tabela01.html" target="frame">Tabela Boletim</a></li>
+        <li><a href="imagem-boletim.html" target="frame">Imagem Boletim</a></li>
+    </ul>
+    <iframe src="tabela01.html" name="frame"></iframe>
+</body>
+</html>
