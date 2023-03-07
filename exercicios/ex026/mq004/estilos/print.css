@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Impressora */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(../imagens/back-print.jpg);
+}
+
+main {
+    border: 2px solid black;
+}
+
+main h1 {
+    color: black;
+    text-shadow: none;
+}
+
+img#phone { display: none; }
+img#tablet { display: none; }
+img#print { display: block; }
+img#pc { display: none; }
+img#tv { display: none; }
