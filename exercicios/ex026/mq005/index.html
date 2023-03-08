@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus architecto praesentium ipsum error rem illum mollitia ab, saepe, harum vitae velit minima similique. Unde est facere ab nisi vel esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem ipsum nulla obcaecati, quos ipsam recusandae inventore natus ea nobis enim dolorum minus repudiandae tempore vero veritatis, aspernatur rerum sint!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nihil ducimus officiis modi ullam ipsa accusamus nam pariatur facere praesentium in vero corporis reprehenderit, sequi, eius perferendis consequuntur quasi inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum porro eius voluptatibus quis quam veritatis quos in iste numquam consequatur, suscipit delectus omnis itaque nostrum eos possimus dolore ducimus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, obcaecati error. Aliquam aspernatur optio accusamus dicta quasi aut laudantium necessitatibus voluptas ratione, nam maxime ea error labore accusantium veritatis ipsa? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque totam laboriosam exercitationem voluptatibus vel eius labore, harum cupiditate tenetur. Dolore magnam est harum ducimus minima deleniti explicabo illo repudiandae laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptates incidunt neque, quis quaerat ut, nostrum minus ducimus fuga doloremque soluta eos eum, nobis dignissimos. Perspiciatis, placeat atque! Nisi, quae!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu () {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
